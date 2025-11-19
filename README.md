@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="jsonpe.png" alt="JSON.pe Logo" width="200">
+<img src="jsonpe.png" alt="Json.pe Logo" width="200">
 
-# 🚀 JSON.pe API – Ejemplos Multilenguaje
+# 🚀 Json.pe - API Consulta
 
-**Colección completa de ejemplos de código para integrar la API de JSON.pe en cualquier lenguaje de programación**
+**Ejemplos de código para integrar la API de Json.pe en cualquier lenguaje de programación**
 
 [![Website](https://img.shields.io/badge/Website-json.pe-red?style=for-the-badge)](https://json.pe/)
-[![API](https://img.shields.io/badge/API-JSON.pe-blue?style=for-the-badge)](https://api.json.pe)
 [![Documentación](https://img.shields.io/badge/Documentación-Completa-purple?style=for-the-badge)](https://docs.json.pe/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Languages](https://img.shields.io/badge/Languages-18-orange?style=for-the-badge)]()
@@ -102,7 +101,7 @@ curl --request POST \
    - Abre el archivo de ejemplo
 
 4. **Configura tu token**
-   - Reemplaza `<token>` con tu token real de JSON.pe
+   - Reemplaza `<token>` con tu token real de Json.pe
 
 5. **Ejecuta el ejemplo**
    - Cada archivo contiene instrucciones comentadas para ejecutarlo
@@ -138,7 +137,7 @@ curl --request POST \
 
 ### 🌐 Landing Page
 
-Conoce más sobre JSON.pe, sus servicios, casos de uso y testimonios de clientes:
+Conoce más sobre Json.pe, sus servicios, casos de uso y testimonios de clientes:
 
 🔗 **[https://json.pe/](https://json.pe/)**
 
