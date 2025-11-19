@@ -54,6 +54,12 @@ Authorization: Bearer <token>
 
 ## 📡 Endpoint
 
+Json.pe cuenta con una amplia gama de APIs disponibles para consultas de DNI, RUC, Placa, SOAT, Licencia de Conducir, Tipo de Cambio, CPE, y muchas más. 
+
+> 📚 **¿Quieres ver todas las APIs disponibles?** Visita nuestra [documentación completa](https://docs.json.pe/) para conocer todos los endpoints y sus funcionalidades.
+
+A continuación, te mostramos los 2 endpoints básicos más utilizados:
+
 ### Consulta de DNI
 
 **Endpoint:** `POST https://api.json.pe/api/dni`
@@ -79,6 +85,36 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '{
   "dni": "27427864"
+}'
+```
+
+---
+
+### Consulta de RUC
+
+**Endpoint:** `POST https://api.json.pe/api/ruc`
+
+**Headers requeridos:**
+```http
+Authorization: Bearer <token>
+Content-Type: application/json
+```
+
+**Body:**
+```json
+{
+  "ruc": "20552103816"
+}
+```
+
+**Ejemplo con cURL:**
+```bash
+curl --request POST \
+  --url https://api.json.pe/api/ruc \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "ruc": "20552103816"
 }'
 ```
 
